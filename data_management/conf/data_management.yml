@@ -1,0 +1,33 @@
+AWS:
+  access_key: path/
+  secret_key: path/
+  bucket:
+  prefix:
+
+MySQL:
+  host:
+  port: 3306
+  database:
+  username: Ella
+  password: path/
+  driver: MySQL
+  Tables:
+    tb1: "tb1"
+    tb2: "tb2"
+    tb3: "tb3"
+    tb4: "tb4"
+  Queries:
+    export_<tb-1>_query: "SELECT * FROM DW.tb-1"
+    export_<tb-2>_query: "SELECT * FROM DW.tb-2"
+
+Redshift:
+  schema_dw: dw
+  schema_dev: dev
+  username: admin
+  password: path/
+  redshift_client: Redshift
+  Tables:
+    tb1: "tb1"
+    tb2: "tb2"
+    tb3: "tb3"
+    tb4: "tb4"

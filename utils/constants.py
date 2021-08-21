@@ -1,0 +1,5 @@
+REDSHIFT = "Redshift"
+MYSQL = "MySQL"
+USERNAME = "username"
+PASSWORD = "password"
+HOST = "host"
