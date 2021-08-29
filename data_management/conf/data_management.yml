@@ -1,15 +1,15 @@
 AWS:
-  access_key: path/
-  secret_key: path/
+  access_key: accessKey # Key filename
+  secret_key: secretKey # Key filename
   bucket:
   prefix:
 
 MySQL:
-  host:
-  port: 3306
-  database:
-  username: Ella
-  password: path/
+  host: healthanalytics.cyrhmtmbjjfq.us-east-2.rds.amazonaws.com
+  port: "3306"
+  database: "healthanalyticsDB"
+  username: "Ella"
+  password: ""
   driver: MySQL
   Tables:
     tb1: "tb1"
@@ -17,7 +17,7 @@ MySQL:
     tb3: "tb3"
     tb4: "tb4"
   Queries:
-    export_<tb-1>_query: "SELECT * FROM DW.tb-1"
+    export_daily_moods_query: "select * from `dev.daily_moods`;"
     export_<tb-2>_query: "SELECT * FROM DW.tb-2"
 
 Redshift:
