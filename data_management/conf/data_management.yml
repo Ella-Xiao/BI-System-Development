@@ -31,3 +31,7 @@ Redshift:
     tb2: "tb2"
     tb3: "tb3"
     tb4: "tb4"
+  Queries:
+      export_daily_moods_query: "select * from `dev.daily_moods`;"
+      export_<tb-2>_query: "SELECT * FROM DW.tb-2"
+
